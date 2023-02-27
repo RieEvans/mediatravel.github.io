@@ -324,7 +324,7 @@ section{
 /*---FOOTER STARTS ---*/
 
 .footer{
-    background:linear-gradient(rgba(4,0,30,0.7),rgba(4,9,30,0.7)), url(../image/footer.jpeg);
+    background:linear-gradient(rgba(4,0,30,0.7),rgba(4,9,30,0.7)), url(image/footer.jpeg);
     background-size: cover;
     background-position: center;
 }
