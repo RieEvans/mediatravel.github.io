@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,300;0,400;0,500;0,600;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headings{
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding-top: 10rem;
+    padding-bottom: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes FadeIn{
+    0%{
+        transform: scale(.5);
+        opacity: 0;
+    }
+}
+
+.headings h1{
+    font-size: 5rem;
+    color:#FFF;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    animation: FadeIn .4s linear backwards .2s;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about .image{
+    flex: 1 1 41rem;
+}
+
+.about .image img{
+    width: 100%;
+}
+
+.about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color:#273d32;
+}
+
+.about .content p{
+    font-size: 1.2rem;
+    color:#273d32;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.about .content .icons-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about .content .icons-container .icons{
+    background:#cacfcc;
+    font-size: 1rem;
+    padding: 1rem;
+    flex: 1 1 16rem;
+    
+}
+
+.about .content .icons-container .icons i{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #9cbaf7;
+}
+
+.about .content .icons-container .icons span{
+    font-size: 1.2rem;
+    display: block;
+}
+
+
+
+.reviews{
+    background: #e6ebe8;
+}
+
+.reviews .slide{
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid #273d32;
+    box-shadow: 1px 2px 10px inset;
+    user-select: none;
+}
+
+.reviews .slide .stars{
+    padding-bottom: .5rem;
+}
+
+.reviews .slide .stars i{
+    font-size: 1.7rem;
+    color: #9cbaf7;
+}
+
+.reviews .slide p{
+    font-size: 1.3rem;
+    color:black;
+    line-height: 2;
+    padding: 1rem 0;
+} 
+
+.reviews .slide h3{
+    font-size: 3rem;
+    color: black;
+}
+
+.reviews .slide span{
+    font-size: 1.5rem;
+    color:#9cbaf7;
+    margin: 1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.reviews .slide img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+
+
+@media (max-width:768px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
